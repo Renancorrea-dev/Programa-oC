@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main (){
+
+    //Soma (+)
+    //Subtração (-)
+    //Mutiplicação (*)
+    // Divisão (/)
+
+    int numero1, numero2;
+    int soma, subtração, mutiplicação, divisão;
+
+    printf("Entre com o numero 1: /n");
+    scanf("%d", &numero1);
+    printf("Entre com o numero2: /n");
+    scanf("%d", &numero2);
+    soma = numero1 + numero2;
+    // Operação soma
+
+    subtração = numero1 - numero2;
+    // Operação subtração
+
+    mutiplicação = numero1 * numero2;
+    // Operação mutiplicação
+
+    divisão = numero1 / numero2;
+    // Operação divisão
+
+    printf("A soma é: %d\n", soma);
+    printf("A subtração é: %d\n", subtração);
+    printf("A mutiplicação é: %d\n", mutiplicação);
+    printf("A divisão é: %d\n", divisão);
